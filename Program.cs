@@ -73,7 +73,6 @@ var queryDocument = new Document
 {
     Title = "Audio intermittently drops during Teams call",
     Description = "In ongoing Teams calls, some participants report that their audio randomly cuts out for a few seconds and then comes back. It’s affecting communication and seems to happen without a pattern.",
-    AreaPath = "Teams/Meetings/Audio",
 };
 
 var result = provider.GetSimilarDocument(queryDocument);
