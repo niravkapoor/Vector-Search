@@ -1,13 +1,14 @@
-﻿using System;
-namespace VectorSearch
+﻿namespace VectorSearch
 {
-	public abstract class VectorComaprisonAlgorithm
-	{
-		public VectorComaprisonAlgorithm()
-		{
-		}
+    public abstract class VectorComaprisonAlgorithm
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="VectorComaprisonAlgorithm"/> class.
+        /// </summary>
+        public VectorComaprisonAlgorithm()
+        {
+        }
 
-		public abstract double Compare(double[] vec1, double[] vec2);
-	}
+        public abstract double Compare(double[] vec1, double[] vec2);
+    }
 }
-

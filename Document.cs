@@ -1,13 +1,13 @@
-﻿using System;
-using Newtonsoft.Json;
-
-namespace VectorSearch
+﻿namespace VectorSearch
 {
-	public class Document
-	{
-		public string DocumentId { get; set; }
+    public class Document
+    {
+        public string DocumentId { get; set; }
+
         public string Title { get; set; }
+
         public string Description { get; set; }
+
         public string AreaPath { get; set; }
 
         public string GetEmbeddingData()
@@ -19,7 +19,7 @@ namespace VectorSearch
             //    embeddingsData.Add(nameof(Description), Description);
             //}
 
-            return $"{Title} {Description}";
+            return $"{this.Title} {this.Description}";
             //return JsonConvert.SerializeObject(embeddingsData, Formatting.Indented);
         }
     }
