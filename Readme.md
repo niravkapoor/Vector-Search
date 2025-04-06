@@ -22,7 +22,16 @@ The project is designed to demonstrate how vector-based similarity search can be
 
 ## Project Structure
 
-VectorSearch/ ├── CosineSimilarity.cs # Implements cosine similarity algorithm ├── Document.cs # Represents a document with metadata ├── DocumentStorage.cs # Provides in-memory storage for documents ├── Program.cs # Entry point of the application ├── SearchProvider.cs # Handles document processing and similarity search ├── VectorComaprisonAlgorithm.cs # Abstract class for vector comparison algorithms ├── VectorDB.cs # In-memory vector database ├── VectorSearch.csproj # Project file ├── VectorSearch.sln # Solution file ├── VectorSearchResponse.cs # Represents the response for a similarity search ├── bin/ # Build output directory └── obj/ # Intermediate build directory
+├── CosineSimilarity.cs<br>
+├── Document.cs<br>
+├── DocumentStorage.cs<br>
+├── Program.cs<br>
+├── Readme.md<br>
+├── SearchProvider.cs<br>
+├── VectorComaprisonAlgorithm.cs<br>
+├── VectorDB.cs<br>
+├── VectorSearch.csproj<br>
+└── VectorSearchResponse.cs<br>
 
 ## How It Works
 
